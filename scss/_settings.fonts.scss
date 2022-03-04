@@ -1,5 +1,11 @@
+@font-face {
+    font-family: fira;
+    src: url('./FiraCode-Regular.woff2');
+}
+
+
 // Families
-$ft-fm--en: Lato;
+$ft-fm--en: fira;
 $ft-fm--cn: "Microsoft YaHei";
 $ft-fm--local: sans-serif;
 
