@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% assign data = site.data.data %}
+{% if site.open %}
+<div class="wrapper">
+    <div class="onlineResume">
+        在线简历: <a href="https://cv.liukairui.cc">cv.liukairui.cc</a>
+    </div>
+    {% include basic.html%}
+    {% include education.html %}
+    {% include skills.html %}
+    {% include certificates.html %}
+    {% include projects.html %}
+    {% include profile.html %}
+    {% include experiences.html %}
+    {% include publications.html %}
+    {% include patents.html %}
+    {% include language.html %}
+    {% include interests.html %}
+    {% include evaluation.html %}
+</div>
+{% include footer.html %}
+{% else %}
+{% include close.html %}
+{% endif %}

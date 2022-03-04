@@ -8,16 +8,13 @@ $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
     } else {
-        var en = ['Home', 'Projects', 'Professions', 'Education',
-                'Internship', 'Current Position', 'Contact Me'];
-        var cn = ['首页', '项目', '技能', '教育', '实习', '供职', '联系'];
-        var isCn = window.location.href.indexOf('cn.html') >= 0;
+        var cn = ['首页', '教育', '技术', 'XCPC', '获奖', '项目', '联系'];
         $('.section').addClass('initing');
         $('#pagepiling').pagepiling({
             loopBottom: true,
             navigation: {
                 'position': 'left',
-                'tooltips': isCn ? cn : en
+                'tooltips': cn
             },
             onLeave: function(index, nextIndex, direction) {
                 var $pages = $('.section');

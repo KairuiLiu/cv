@@ -1,0 +1,222 @@
+basic:
+  name: 刘锴睿
+  title: 前端开发工程师
+  avatar:
+    display: false
+    path: profile.png
+
+contact:
+  email: Kairui_Liu@outlook.com
+  phone: 134-0369-3631
+  wechat:
+  whatsapp:
+  telegram:
+  website: liukairui.cc
+  medium:
+  linkedin: 
+  googlescholar:
+  researchgate:
+  github: KairuiLiu
+  gitlab:
+  bitbucket:
+  twitter: 
+  stackoverflow:
+  quora:
+  goodreads:
+
+profile:
+  display: false
+  title: 简历
+  details: |
+    It's your career profile, you can wirte markdown format text.
+    + First
+    + Second
+
+    ...
+
+experiences:
+  display: false
+  title: Experiences
+  items:
+    - role: Backend Developer
+      time: 2018.03 - 2019.03
+      company: Second Company
+      tag:
+      location: Beijing
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Backend Developer
+      time: 2017.03 - 2018.03
+      company: First Company
+      tag: Remote, part-time
+      location: Beijing
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+projects:
+  display: true
+  title: 项目经验
+  items:
+    - name: 🐱 西南大学动物实验中心伦理与采购审核系统
+      # link: https://gitee.com/LiuKairui/lac-oa-fe
+      details: |
+        帮助校动物中心实现实验伦理审核, 动物选购无纸化. |
+        负责: 前端实现 |
+        技术: ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white)![Vue3](https://img.shields.io/badge/Vue3-4FC08D?style=flat-square&logo=Vue.js&logoColor=white)![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)![G2](https://img.shields.io/badge/G2%20Plot-6c2fc3?style=flat-square&logo=antdesign&logoColor=white) |
+        链接: <a href="https://gitee.com/LiuKairui/lac-oa-fe" target="_blank"><i class="fa-brands fa-git-alt"></i> Gitee</a> |
+    - name: 📈 Data观 - 在线的数据可视化平台
+      # link: https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr
+      details: |
+        轻松实现数据可视化与共享, 挖掘数据背后的价值. |
+        负责: 数据预处理(类型检查/校验/筛选/公式字段) |
+        技术: ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white)![Vue3](https://img.shields.io/badge/Vue3-4FC08D?style=flat-square&logo=Vue.js&logoColor=white)![pinia](https://img.shields.io/badge/Pinia-c0a52c?style=flat-square&logo=Pi-hole&logoColor=white)![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white) |
+        链接: <a href="https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr/" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://data2chart.all1024.com" target="_blank"><i class="fas fa-globe"></i> 预览 <i class="fa-solid fa-user"></i> alexzhli/123456</a> |
+    - name: 🏄🏼 划水 - 将电脑伪装为系统更新
+      # link: https://github.com/KairuiLiu/huashui
+      details: |
+        根据配置显示一个Windows Update画面. |
+        技术: ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white)![Vue3](https://img.shields.io/badge/Vue3-4FC08D?style=flat-square&logo=Vue.js&logoColor=white)![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white) |
+        链接: <a href="https://github.com/KairuiLiu/huashui" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://hua.liukairui.cc" target="_blank"><i class="fas fa-globe"></i> 在线预览</a> |
+    - name: 📑 ArtRank - 文献管理与发现平台
+      # link: https://github.com/KairuiLiu/ArtRank
+      details: |
+        基于PageRank的文献信息爬取, 管理, 发现平台. |
+        技术: ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white)![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white)![ArtTemplate](https://img.shields.io/badge/-ArtTemplate-blue?style=flat-square)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white) |
+        链接: <a href="https://github.com/KairuiLiu/ArtRank" target="_blank"><i class="fab fa-github"></i> GitHub</a>  |
+skills:
+  display: true
+  title: 专业技能
+  details: |
+    😄 熟悉JavaScript, 了解TypeScript, 掌握ES6以上常见特性. |
+    😄 熟悉Vue.js项目开发. 了解Vue.js基本原理与相关新技术(Vite, Pinia). |
+    😄 熟悉HTML, CSS, Less, Ajax(Axios), jQuery等前端常见技术. |
+    😕 了解常见前端构建工具(webpack, Gulp)与工程化工具(Prettier, ESLint, Git, husky). |
+    😕 了解Node.js, 可以使用Express构建简单Web后端. |
+    😕 了解G2Plot, D3.js等可视化框架. 使用上述框架实现过数据可视化与交互.  |
+    😄 熟悉Linux系统管理与DHCP, VSFTP, Samba, Rsync, LNMP+LVS等基础网络服务的搭建. |
+
+
+education:
+  display: true
+  title: 教育经历
+  items:
+    - university: 西南大学
+      time: 2019 - 2023
+      major: 计算机科学与技术(数据科学方向)
+      degree: 学士 Rank 3%
+      # details: |
+      #   Experience in this university:
+      #   + First
+      #   + Second
+
+
+certificates:
+  display: true
+  title: 获奖与证书
+  items:
+    - name: 算法竞赛
+      row: 
+        - authority: CCPC中国大学生程序设计竞赛 桂林站 🥇金奖
+          time: 第7届
+          link: https://board.xcpcio.com/ccpc/7th/guilin?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: CCPC中国大学生程序设计竞赛 威海站 🥈银奖
+          time: 第7届
+          link: https://board.xcpcio.com/ccpc/7th/weihai?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: ICPC国际大学生程序设计竞赛 上海站 🥉铜奖
+          time: 第46届
+          link: https://board.xcpcio.com/icpc/46th/shanghai?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: ICPC国际大学生程序设计竞赛 济南站 🥉铜奖
+          time: 第46届
+          link: https://board.xcpcio.com/icpc/46th/jinan?group=%E6%89%80%E6%9C%89%E9%98%9F%E4%BC%8D&organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: CCPC中国大学生程序设计竞赛 总决赛 优胜奖
+          time: 第6届
+          link: https://board.xcpcio.com/ccpc/2020/final?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: ICPC国际大学生程序设计竞赛 昆明站 优胜奖
+          time: 第45届
+          link: https://board.xcpcio.com/icpc/2020/kunming?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+      link: https://icpc.global/ICPCID/UUWH0JANEIUR
+      linkName: ICPCID<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
+    - name: 在校获奖
+      row: 
+        - authority: 国家励志奖学金
+          time: 2021
+        - authority: 校级学习优秀奖
+          time: 2021
+        - authority: 校级学术科技奖
+          time: 2020
+    - name: 数学建模
+      row: 
+        - authority: 美国大学生数学建模竞赛 M奖(一等奖)
+          time: 2021
+        - authority: 全国大学生数学建模竞赛 省二等奖
+          time: 2020
+    - name: 语言技能
+      row: 
+        - authority: 雅思-6.0
+          time: 2021
+
+publications:
+  display: false
+  title: Publications
+  intro: |
+    This is all the books I wrote.
+
+  items:
+    - title: Foo in Action
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link: https://www.google.com
+    - title: The Art of Bar
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link: 
+
+patents:
+  display: false
+  title: Patents
+  details: |
+    This is all my patents.
+    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+
+languages:
+  display: false
+  title: Languages
+  items:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: Professional
+
+interests:
+  display: false
+  title: Interests
+  items:
+    - item: Reading
+      link:
+    - item: Cooking
+      link:
+
+evaluation:
+  display: false
+  title: Self-evaluation
+  details: |
+    Here is my self evaluation.
+    + First
+    + Second
+
+    ...
+
+footer:
+  display: false
+
+close: >
+  Sorry, my resume has been hidden.

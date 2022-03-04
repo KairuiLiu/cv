@@ -7,13 +7,15 @@
     width: 40px;
     height: 40px;
     background-color: $clr-link;
-    background-image: url('../../blog/img/social.png');
+    // background-image: url('../../blog/img/social.png');
     transition: 0.5s;
     display: inline-block;
     margin-right: 2px;
     border-bottom: none;
     border-radius: 20px;
-    
+    color: #0095d9 ;
+    font-size: 20px;
+    line-height: 40px;
     &:hover {
         background-color: $clr-darker;
         border-radius: 5px;
