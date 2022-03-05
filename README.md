@@ -1,9 +1,9 @@
 # CV of Kairui Liu
 
+
 #### Web Front-End Engineer
 
-![](https://raw.githubusercontent.com/Ovilia/cv/gh-pages/img/cv.png)
-
+![CV of Kairui Liu](./img/Resume_Kairui_Liu.png)
 
 ### Online Version
 
