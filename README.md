@@ -3,7 +3,9 @@
 
 #### Web Front-End Engineer
 
-![CV of Kairui Liu](./img/Resume_Kairui_Liu.png)
+![CV of Kairui Liu](./img/Resume_Kairui_Liu_en.jpg)
+
+![CV of Kairui Liu](./img/Resume_Kairui_Liu.jpg)
 
 ### Online Version
 
@@ -15,6 +17,6 @@ Tools: SCSS, bower, gulp
 
 ### PDF Version
 
-pdf page: [Here](https://cv.liukairui.me/paper)
+pdf page: [Here](https://cv.liukairui.me/paper/en) [简体中文](https://cv.liukairui.me/paper/)
 
-pdf file: [Here](https://cv.liukairui.me/Resume_Kairui_Liu.pdf)
+pdf file: [Here](https://cv.liukairui.me/Resume_Kairui_Liu_en.pdf) [简体中文](https://cv.liukairui.me/Resume_Kairui_Liu.pdf)
