@@ -1,0 +1,205 @@
+basic:
+  name: Kairui Liu
+  title: Front-End Engineer
+  avatar:
+    display: false
+    path: profile.png
+
+contact:
+  email: kliu855@aucklanduni.ac.nz
+  phone: +86 134-0369-3631
+  wechat:
+  whatsapp:
+  telegram:
+  website: liukairui.me
+  medium:
+  linkedin:
+  googlescholar:
+  researchgate:
+  github: KairuiLiu
+  gitlab:
+  bitbucket:
+  twitter:
+  stackoverflow:
+  quora:
+  goodreads:
+
+profile:
+  display: false
+  title: CV
+  details: |
+    It's your career profile, you can wirte markdown format text.
+    + First
+    + Second
+
+    ...
+
+experiences:
+  display: false
+  title: Experiences
+  items:
+    - role: Backend Developer
+      time: 2018.03 - 2019.03
+      company: Second Company
+      tag:
+      location: Beijing
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Backend Developer
+      time: 2017.03 - 2018.03
+      company: First Company
+      tag: Remote, part-time
+      location: Beijing
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+projects:
+  display: true
+  title: Projects
+  items:
+
+    - name: ⛏️ ThreeCraft
+        # link: https://github.com/KairuiLiu/ArtRank
+      details: |
+        Minecraft release based on Three.js. |
+        Technology: Three.js, TypeScript, Vite |
+        Links: <a href="https://github.com/KairuiLiu/ThreeCraft" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://mc.liukairui.me" target="_blank"><i class="fas fa-globe"></i> Preview</a> |
+    - name: 🤏 micro-vue
+      details: |
+        Simple Vue.js Implementation. |
+        Technology: TypeScript, Jest |
+        Links: <a href="https://github.com/KairuiLiu/micro-vue" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://microvue.liukairui.me" target="_blank"><i class="fas fa-globe"></i> Preview</a> |
+
+    - name: 🐱 Ethics and Procurement Review System of Animal Experiment Center of SWU
+      # link: https://gitee.com/LiuKairui/lac-oa-fe
+      details: |
+        OA system for experimental ethics review and experimental material procurement and sales.|
+        Responsibilities: Front-end Develop and devops  |
+        Technology: Vue3, G2Plot |
+        Links: <a href="https://github.com/KairuiLiu/lac-oa-fe" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://lac.liukairui.me" target="_blank"><i class="fas fa-globe"></i> Preview</a> |
+    - name: 📈 Data Guan
+      # link: https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr
+      details: |
+        A lightweight data maintenance, analysis, and visualization platform. |
+        The 9<sup>th</sup> place of ByteDance Youth Camp. |
+        Responsibilities: Data preprocessing module (type checking, filtering, formula) |
+        Technology: Vue3, TypeScript, Pinia |
+        Links: <a href="https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr/" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://data2chart.all1024.com" target="_blank"><i class="fas fa-globe"></i> Preview admin/111111</a> |
+
+skills:
+  display: true
+  title: Skills
+  details: |
+    😄 Familiar with JavaScript, TypeScript, the common features of ES6. |
+    😄 Familiar with Vue.js. Understand the principles of Vue.js and new features. |
+    😄 Familiar with common front-end technologies: HTML, CSS, Less, Ajax, jQuery. |
+    😕 Knowing the common front-end build tools and engineering tools. |
+    😕 Knowing Node.js and able to build simple web server with Express. |
+    😕 Knowing G2Plot, D3.js, Three.js and other visualization skill. |
+    😄 Familiar with Linux system management and basic services|
+
+
+education:
+  display: true
+  title: Education
+  items:
+    - university: Southwest University
+      time: 2019 - 2023
+      major: Computer Science(Data Science)
+      degree: Bachelor Rank 3%
+    - university: University of Auckland
+      time: 2022 - 2024
+      major: Data Science
+      degree: Master Rank --
+
+
+certificates:
+  display: true
+  title: certificates
+  items:
+    - name:
+      row:
+        - authority: The 7<sup>th</sup>&nbsp;&nbsp;China Collegiate Programming Contest Guilin Station
+          time: 🥇 Gold Award
+          link: https://board.xcpcio.com/ccpc/7th/guilin?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: The 7<sup>th</sup>&nbsp;&nbsp;China Collegiate Programming Contest Weihai Station
+          time: 🥈Silver Award
+          link: https://board.xcpcio.com/ccpc/7th/weihai?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: The 46<sup>th</sup> ICPC Asia Regional Contest Shanghai Site
+          time: 🥉Bronze Award
+          link: https://board.xcpcio.com/icpc/46th/shanghai?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: The 46<sup>th</sup> ICPC Asia Regional Contest Jinan Site
+          time: 🥉Bronze Award
+          link: https://board.xcpcio.com/icpc/46th/jinan?group=%E6%89%80%E6%9C%89%E9%98%9F%E4%BC%8D&organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+        - authority: The 6<sup>th</sup>&nbsp;&nbsp;China Collegiate Programming Contest Finals
+          time: Honorable Mention
+          link: https://board.xcpcio.com/ccpc/2020/final?organization=%5B%22%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%22%5D
+      link: https://icpc.global/ICPCID/UUWH0JANEIUR
+      linkName: ICPCID<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
+
+
+publications:
+  display: false
+  title: Publications
+  intro: |
+    This is all the books I wrote.
+
+  items:
+    - title: Foo in Action
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link: https://www.google.com
+    - title: The Art of Bar
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link:
+
+patents:
+  display: false
+  title: Patents
+  details: |
+    This is all my patents.
+    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+
+languages:
+  display: false
+  title: Languages
+  items:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: Professional
+
+interests:
+  display: false
+  title: Interests
+  items:
+    - item: Reading
+      link:
+    - item: Cooking
+      link:
+
+evaluation:
+  display: false
+  title: Self-evaluation
+  details: |
+    Here is my self evaluation.
+    + First
+    + Second
+
+    ...
+
+footer:
+  display: false
+
+close: >
+  Sorry, my resume has been hidden.
