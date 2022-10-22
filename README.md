@@ -3,9 +3,9 @@
 
 #### Web Front-End Engineer
 
-![CV of Kairui Liu](./img/Resume_Kairui_Liu_en.jpg)
+![CV of Kairui Liu](./img/Resume_Kairui_Liu_en.png)
 
-![CV of Kairui Liu](./img/Resume_Kairui_Liu.jpg)
+![CV of Kairui Liu](./img/Resume_Kairui_Liu.png)
 
 ### Online Version
 

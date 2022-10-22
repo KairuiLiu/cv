@@ -1,0 +1,44 @@
+@font-face {
+  font-family: fira;
+  src: url('./FiraCode-Regular.woff2');
+}
+
+body {
+  font-size: 14px;
+  font-family: fira, 'Microsoft YaHei', '微软雅黑';
+}
+
+.certificates .item {
+  margin-top: 10px;
+}
+
+.projects .item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projects .project a,
+.certificates a {
+  color: #333 !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+.time a {
+  color: #97aac3 !important;
+}
+
+section {
+  margin: 12px 0;
+}
+
+.onlineResume {
+  position: absolute;
+  right: 40px;
+}
+
+.onlineResume a {
+  color: #333 !important;
+}

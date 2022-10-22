@@ -6,7 +6,7 @@ basic:
     path: profile.png
 
 contact:
-  email: Kairui_Liu@outlook.com
+  email: kairuiliu@msn.com
   phone: +86 134-0369-3631
   wechat:
   whatsapp:
@@ -71,11 +71,15 @@ projects:
         # link: https://github.com/KairuiLiu/ArtRank
       details: |
         学习图形学基础后实现的基于Three.js的我的世界. |
-        相关技术: Three.js, TypeScript, Vite |
+        实现了多端多模游玩 (桌面, 手机, 手柄, VR) 与 |
+        多人模式.|
+        相关技术: Three.js, WebSocket, Vite |
         链接: <a href="https://github.com/KairuiLiu/ThreeCraft" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://mc.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
     - name: 🤏 micro-vue
       details: |
         学习《Vue.js设计与实现》后实现的简易版Vue. |
+        实现了: runtime-core, runtime-dom, |
+        reactivity 与 compiler-core|
         相关技术: TypeScript, Jest |
         链接: <a href="https://github.com/KairuiLiu/micro-vue" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://microvue.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
 
