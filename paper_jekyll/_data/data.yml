@@ -100,7 +100,7 @@ projects:
         字节跳动青训营中获得第九名. |
         负责: 数据预处理模块(类型校验/筛选/公式字段) |
         相关技术: Vue3, TypeScript, Pinia |
-        链接: <a href="https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr/" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://data2chart.all1024.com" target="_blank"><i class="fas fa-globe"></i> 预览 <i class="fa-solid fa-user"></i> admin/111111</a> |
+        链接: <a href="https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr/" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://data2chart.all1024.com" target="_blank"><i class="fas fa-globe"></i> 预览 <i class="fa-solid fa-user"></i> admin/123456</a> |
 
 skills:
   display: true
@@ -118,14 +118,14 @@ education:
   display: true
   title: 教育经历
   items:
-    - university: 西南大学
-      time: 2019 - 2023
-      major: 计算机科学与技术(数据科学方向)
-      degree: 学士 Rank 3%
     - university: 奥克兰大学
       time: 2022 - 2024
       major: 数据科学
       degree: 硕士 Rank --
+    - university: 西南大学
+      time: 2019 - 2023
+      major: 计算机科学与技术(数据科学方向)
+      degree: 学士 Rank 3%
 
 certificates:
   display: true
