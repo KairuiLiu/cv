@@ -12,7 +12,11 @@
                 <div class="item">
 
                     <div class="upper-row">
-                        <div class="certificate">{{ certificate.name }}</div>
+                        <div class="certificate">{{ certificate.name }}
+                            {% if certificate.hide %}
+                                <span style="color: #0000">{{ certificate.hide }}</span>
+                            {% endif %}
+                        </div>
                         {% if certificate.link %}
                         <div class="time"><a href="{{ certificate.link }}">{{ certificate.linkName }}</a></div>
                         {% endif %}

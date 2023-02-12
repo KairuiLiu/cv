@@ -35,32 +35,17 @@ profile:
     ...
 
 experiences:
-  display: false
-  title: Experiences
+  display: true
+  title: 工作经历
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
-      tag:
-      location: Beijing
+    - role: 前端开发实习生
+      time: 2022.12 - 2023.04
+      company: 字节跳动
+      tag: AI-Lab-NLP][火山翻译
+      location: 北京
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
-
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
-      details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        + <strong>实现网页翻译功能</strong>: 谷歌翻译退出中国市场后, 为抢占存量客户, 部门决定为火山翻译插件新增网页翻译功能. 我调研了六款插件的实现方案, 总结出两种实现思路("文本替换"与"节点复制"). 结合 PM 提出的"双语对照"功能, 我制定了一份基于"节点复制"法的技术方案, 并提出<strong>高性能, 响应式, 懒加载, 低侵入, 可交互, 强上下文</strong>的设计目标. 经导师主管认可后进行前期技术验证. 借鉴曾实现简易版 Vue 的经验, 我为网页翻译加入了 vNode, diff 等特性, 减少了页面更新的工作量. 在内部迭代中我遇到了<strong>反复重绘与微任务阻塞</strong>卡死页面的问题. 学习前端性能优化方案后, 我将翻译节点<strong>极端挂载时间从 12s 优化到 1.6s 并过滤掉 99.9% 的冗余更新回调</strong>. 这次经历让我对<strong>性能分析与优化, 响应式框架设计有了深刻理解</strong>.
+        + <strong>重构火山翻译插件</strong>: 网页翻译功能如期合入插件后, 考虑到翻译插件之前非我部门维护且历史遗留问题较多, 我重构了网页翻译插件并如期交付. 考虑到我 React 开发经验有限, 在开发前我阅读了多个部门维护的 React 项目, <strong>积累了一定 React 开发经验</strong>. 在与用户, PM 的交流过程中, 我也<strong>积累了一定与非技术人员的沟通经验, 了解了项目推进标准流程.</strong>
 
 projects:
   display: true
@@ -68,7 +53,6 @@ projects:
   items:
     - name:
         ⛏️ ThreeCraft
-        # link: https://github.com/KairuiLiu/ArtRank
       details: |
         学习图形学基础后实现的基于 Three.js 的我的世界 |
         实现了多端多模游玩 (桌面端, 移动端, 手柄, VR) |
@@ -76,45 +60,35 @@ projects:
         方块场景满帧运行. |
         相关技术: Three.js, WebSocket, Vite |
         链接: <a href="https://github.com/KairuiLiu/ThreeCraft" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://mc.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
-    - name: 🤏 micro-vue
+    - name: 🧑‍⚖ RahRahOJ
       details: |
-        学习《Vue.js设计与实现》后实现的简易版 Vue. |
-        实现模块: runtime-dom, runtime-core,  |
-        reactivity 与 compiler-core 模块. 其中, |
-        reactivity 模块的 API 通过了 Vue 官方单测. |
-        相关技术: TypeScript, Jest |
-        链接: <a href="https://github.com/KairuiLiu/micro-vue" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://microvue.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
-
-    - name: 🐱 西南大学动物实验中心伦理与采购审核系统
-      # link: https://gitee.com/LiuKairui/lac-oa-fe
-      details: |
-        帮助学校搭建实验伦理审核与实验材料采购销售平台. |
-        上线以来注册师生约 1 万人, 注册供应商约 20 家,|
-        大大提升了校实验中心工作效率. |
-        负责: 前端实现, 运维 |
-        相关技术: Vue3, G2Plot |
-        链接: <a href="https://github.com/KairuiLiu/lac-oa-fe" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://lac.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
-    - name: 📈 Data观
-      # link: https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr
-      details: |
-        轻量的数据维护, 分析, 可视化平台. 支持数据 |
-        在线编辑, 在线分析, 快速导出. 项目在第二届 |
-        字节跳动青训营中获得第九名. |
-        负责: 数据预处理模块(类型校验/筛选/公式字段) |
-        相关技术: Vue3, TypeScript, Pinia |
-        链接: <a href="https://github.com/KairuiLiu/Youth-Training-Project/tree/lkr/" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://data2chart.all1024.com" target="_blank"><i class="fas fa-globe"></i> 预览 <i class="fa-solid fa-user"></i> admin/123456</a> |
+        基于 Golang 的在线评测系统. |
+        实现模块: 用户组队, 代码评测, 并发判题, 实时滚榜, |
+        作弊检测, 交互判题, 多样判题模式(NOI, IOI, ACM) |
+        相关技术: GoLang, Gin, Gorm, Go-Redis, Zap, |
+        Testify, RabbitMQ |
+        链接: <a href="https://github.com/KairuiLiu/RahRahOJ-FrontEnd" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://oj.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
+    # - name: 🤏 micro-vue
+    #   details: |
+    #     学习《Vue.js设计与实现》后实现的简易版 Vue. |
+    #     实现模块: runtime-dom, runtime-core,  |
+    #     reactivity 与 compiler-core 模块. 其中, |
+    #     reactivity 模块的 API 通过了 Vue 官方单测. |
+    #     相关技术: TypeScript, Jest |
+    #     链接: <a href="https://github.com/KairuiLiu/micro-vue" target="_blank"><i class="fab fa-github"></i> GitHub</a> <a href="https://microvue.liukairui.me" target="_blank"><i class="fas fa-globe"></i> 预览</a> |
 
 skills:
   display: true
   title: 专业技能
   details: |
-    😄 熟悉 JavaScript, 了解 TypeScript, 掌握ES6以上常见特性. |
-    😄 熟悉 Vue.js 项目开发. 了解 Vue.js 基本原理与相关新技术 (Vite, Pinia). |
-    😄 熟悉 HTML, CSS, Less, Ajax(Axios), jQuery 等前端常见技术. |
-    😕 了解常见前端构建工具 (webpack, Gulp) 与工程化工具 (Prettier, ESLint, Git, husky). |
-    😕 了解 Node.js, 可以使用 Express 构建简单 Web 服务. |
+    😄 熟悉 JavaScript, 了解 TypeScript, 掌握 ES6 以上常见特性. |
+    😄 熟悉 Vue 与 React 项目开发. 熟悉 Vue.js 基本实现原理与相关新技术 (Pinia, VueUse). |
+    😄 熟悉 HTML, CSS(Less, Scss, Tailwind CSS, styled-components), Ajax(axios), jQuery 等常见技术. |
+    😕 了解常见前端构建工具 (Gulp, webpack, Vite) 与工程化工具 (Prettier, ESLint, Git, husky). |
     😕 了解 G2Plot, D3.js, Three.js 等可视化框架. 使用上述框架实现过数据可视化与交互页面.  |
-    😕 了解 WebRTC 等实时通信 API 与相关协议. 实现过基于 WebRTC 的视频通话网站.  |
+    😕 了解 WebRTC 等实时通信 API 与相关协议. 实现过基于 WebRTC 的视频通话网站. |
+    😕 了解 Node.js, 使用 Express 构建过简单 Web 服务. |
+    😄 熟悉 GoLang 及其相关生态技术 (Gin, Gorm, Go-Redis, Zap, Testify, RabbitMQ). |
     😄 熟悉 Linux 系统管理与 DHCP, VSFTP, Samba, Rsync, LNMP+LVS 等基础网络服务的搭建. |
 
 education:
@@ -135,6 +109,7 @@ certificates:
   title: 获奖与证书
   items:
     - name: 算法竞赛
+      hide: ACM经历
       row:
         - authority: CCPC中国大学生程序设计竞赛 桂林站 🥇金奖
           time: 第7届
@@ -148,7 +123,7 @@ certificates:
       row:
         - authority: 奥克兰大学国际学生高成就奖
           time: 2022
-        - authority: 雅思 6.0
+        - authority: 西南大学三好学生 & 学术科技奖
           time: 2021
 
 publications:
