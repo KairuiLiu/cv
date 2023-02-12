@@ -35,6 +35,8 @@
   "dependencies": {
     "gulp-run": "^1.7.1",
     "gulp-sass": "^5.1.0",
+    "jekyll": "3.0.0-beta1",
+    "jekyll-cli": "^0.3.9",
     "node-sass": "^7.0.1",
     "sass": "^1.49.9"
   }
