@@ -12,16 +12,13 @@
             <div class="upper-row">
                 <div class="company">
                     {{ experience.company }}
+
+                    <span>{{ experience.role }}</span>
                     {% if experience.tag %}
-                    <small>[{{ experience.tag }}]</small>
+                    <small>{{ experience.tag }}</small>
                     {% endif %}
                 </div>
                 <div class="time">{{ experience.time }}</div>
-            </div>
-
-            <div class="upper-row">
-                <div class="role">{{ experience.role }}</div>
-                <div class="location"><i class="fas fa-map-marker-alt"></i> {{ experience.location }}</div>
             </div>
 
             {% if experience.details %}
