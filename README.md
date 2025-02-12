@@ -9,14 +9,6 @@
 
 ![CV of Kairui Liu](./img/Resume_Kairui_Liu.png)
 
-### Online Version
-
-page: [Here](https://cv.liukairui.me)
-
-Third-party library: [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js)
-
-Tools: SCSS, bower, gulp
-
 ### PDF Version
 
 pdf page: [Here](https://cv.liukairui.me/paper/en) [简体中文](https://cv.liukairui.me/paper/)
